@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Principal</title>
+	<style type="text/css">
+		img{
+			width: 70px;
+			height: 70px;
+			border-radius: 100px;
+		}
+		div{
+			width: 180px;
+			height: 180px;
+			border-color: blue;
+			border-style: solid;
+			padding: 3px;
+			border-radius: 0px 30px 0px 30px;
+		}
+		div:hover{
+			width: 180px;
+			height: 180px;
+			border-color: #000000;
+			border-style: solid;
+			padding: 3px;
+			border-radius: 0px 30px 0px 30px;
+			box-shadow: 0px 03px 5px rgb(0,0,0);
+		}
+		img.discos{
+			width: 150px;
+			height: 150px;
+			border-radius: 30px;
+			margin: 0px 10px;
+		}
+		img.discos:hover{
+			width: 130px;
+			height: 130px;
+			border-radius: 30px;
+			margin: 0px 10px;
+			filter: grayscale(100%);
+			box-shadow: 0px 03px 5px rgb(0,0,0);
+		}
+		h1,h2,h3,h4,p{
+			font-family: Tahoma;
+		}
+	</style>
+</head>
+<body>
+	<table width="950" height="500" align="center">
+		<tr>
+			<td colspan="3" height="30" valign="top" align="center" >
+				<h2>Canciones Recomendadas</h2>
+			</td>
+		</tr>
+		<tr>
+			<td width="316" valign="top" align="center">
+				<div>
+				<img src="canciones/Any Kind of Guy.jpg">
+				<h3>Any Kind of Guy</h3>
+				<p>Big Time Rush</p>
+				</div>
+			</td>
+			<td width="316" valign="top" align="center">
+				<div>
+				<img src="canciones/Glorious Days.jpg">
+				<h3>Glorious Days</h3>
+				<p>Three Lights Down Kings</p>
+				</div>
+			</td>
+			<td width="316" valign="top" align="center">
+				<div>
+				<img src="canciones/Hoy Tengo Ganas de Ti.png">
+				<h5>Hoy Tengo Ganas de Ti</h5>
+				<p>Alejandro Fernández ft. Cristina Aguilera</p>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" height="60" valign="top" align="center">
+				<h3>Albumes recomendados</h3>
+				<img class="discos" src="canciones/albun_bigtimerush.jpg">
+				<img class="discos" src="canciones/albun_nrftw.jpg">
+				<img class="discos" src="canciones/albun_fh.jpg">
+				<img class="discos" src="canciones/albun_CATM.jpg">
+				<img class="discos" src="canciones/albun_Thriller.jpg">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
